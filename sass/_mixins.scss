@@ -1,0 +1,18 @@
+$base-font:2rem;
+$my-color:purple;
+@mixin h1-style{
+    color: $my-color;
+    font-size: $base-font*2;
+    text-align: center;
+
+}
+@mixin h2-style {
+    text-align: center;
+    color: $my-color;
+    font-size: $base-font;
+}
+@mixin p-style {
+    color: chartreuse;
+    font-size: $base-font*0.5;
+    
+}
